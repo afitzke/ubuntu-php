@@ -15,7 +15,6 @@ RUN apt-get install -y \
 	php-mysql \	
 	php-redis \
 	php-smbclient \
-	php-sodium \
 	php-ssh2 \
 	php-soap \	
 	php-sqlite3 \
