@@ -12,7 +12,6 @@ RUN apt-get install -y \
 	php-intl \
 	php-json \
 	php-mbstring \
-	php-mcrypt \
 	php-mysql \	
 	php-redis \
 	php-smbclient \
