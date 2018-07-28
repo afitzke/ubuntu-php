@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
-RUN apt-get -y update && apt-get install -y git curl unzip openssh-client
-RUN apt-get install -y \
+RUN export DEBIAN_FRONTEND=noninteractive && apt-get -y update && apt-get install -y git curl unzip openssh-client
+RUN export DEBIAN_FRONTEND=noninteractive && apt-get install -y \
 	php-cli \
 	php-bcmath \
 	php-curl \
