@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 RUN export DEBIAN_FRONTEND=noninteractive && apt update -y && apt install -y git curl openssh-client
-RUN apt-get install -y \
+RUN export DEBIAN_FRONTEND=noninteractive && apt-get install -y \
 	php-cli \
 	php-bcmath \
 	php-curl \
